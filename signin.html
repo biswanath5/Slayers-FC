@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="signstyle.css">
+</head>
+<body>
+    <header>
+        <a id="zz" href="index.html"><i class="ri-home-2-fill"></i></a>
+        <h1 class="slayers-heading">SLAYERS FC</h1>
+        <a id="zz" href="store.html"><i class="ri-shopping-cart-2-fill"></i></a>
+    </header>
+    <main>
+        <form action="/submit-signup" method="POST" class="box-form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div id="buttondiv">
+                <button id="btn2" type="submit">Sign Up</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; TheSlayersFC</p>
+    </footer>
+</body>
+</html>
